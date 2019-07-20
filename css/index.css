@@ -126,3 +126,27 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+.nav-bar-container {
+  max-width: 1000px;
+  background-color: #9eb1cd;
+}
+p {
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  color: blue;
+}
+.button1 {
+  background-color: #9eb1cd;
+  border-radius: 10px;
+  text-decoration: none;
+  color: orange;
+}
+.body-3 button {
+  background-color: blue;
+}
+@media screen and (max-width: 500px) {
+  .gigapets {
+    display: none;
+  }
+}
